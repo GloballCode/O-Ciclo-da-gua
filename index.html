@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://arvoreagua.org/wp-content/uploads/2023/07/cropped-IMG-20230612-WA0007-32x32.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta name="theme-color" content="#386490">
+    <title>O Ciclo da Água</title>
+    <meta name="author" content="Gabrielly Barros">
+    <meta name="description" content="Aprenda sobre o ciclo da água, suas fases e importância para a vida na Terra.">
+    <meta name="keywords" content="ciclo da água, evaporação, condensação, precipitação, meio ambiente">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.10-0/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style> 
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #d8e4ee;
+        min-height: 100vh;
+        height: 100%;
+        width: 100vw;
+        box-sizing: border-box;
+      }
+      .container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* vertical */
+        align-items: center;     /* horizontal */
+        width: 100%;
+      }
+      h1, h2 {
+        color: #386490;
+        text-align: center;
+      }
+      p {
+        color: #2d3a47;
+        text-align: center;
+      }
+      ul {
+        list-style-type: square;
+        padding-left: 20px;
+        max-width: 600px;
+        margin: 0 auto 20px auto;
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+      }
+      .pergunta {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(56,100,144,0.08);
+        padding: 16px 24px;
+        margin: 16px 0;
+        max-width: 500px;
+        width: 100%;
+      }
+      .pergunta p {
+        margin-bottom: 10px;
+        color: #386490;
+        text-align: left;
+      }
+      .pergunta label {
+        display: block;
+        margin-bottom: 6px;
+        cursor: pointer;
+        color: #2d3a47;
+      }
+      button {
+        background: #386490;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 28px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin: 24px 0 12px 0;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #27405e;
+      }
+      #resultado {
+        font-weight: bold;
+        color: #386490;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>O Ciclo da Água</h1>
+      <p>O ciclo da água é um processo natural que envolve a evaporação, condensação e precipitação da água na Terra.</p>
+      <h2>Fases do Ciclo</h2>
+      <ul>
+        <li><strong>Evaporação:</strong> A água dos oceanos, rios e lagos evapora devido ao calor do sol.</li>
+        <li><strong>Condensação:</strong> O vapor de água sobe e se resfria, formando nuvens.</li>
+        <li><strong>Precipitação:</strong> Quando as nuvens ficam pesadas, a água cai na forma de chuva, neve ou granizo.</li>
+      </ul>
+      <img src="https://arvoreagua.org/wp-content/uploads/2023/07/IMG-20230612-WA0007.jpg" alt="Ciclo da Água" width="500" height="300">
+      <h2>Importância do Ciclo da Água</h2>
+      <p>O ciclo da água é essencial para a manutenção da vida, pois fornece água potável e regula o clima.</p>
+      <h2>Curiosidades</h2>
+      <ul>
+        <li>A Água cobre mais de <em>70%</em> da superfície terrestre, sendo 97% Água salgada e 2% Água doce</li>
+        <img src="https://static.escolakids.uol.com.br/2019/04/distribuicao-agua.jpg" alt="Gráfico de Distribuição da Água" width="500" height="300">
+        <li>A Água pode existir em três estados: líquido, sólido (gelo) e gasoso (vapor)</li>
+        <img src="https://www.infoescola.com/wp-content/uploads/2007/02/estados-materia.jpg" alt="Estados da Matéria" width="500" height="300">
+      </ul>
+      <h2>Perguntas</h2>
+      <div class="pergunta">
+        <p>Quantos porcentos de água doce tem no planeta?</p>
+        <label><input type="radio" name="q1" value="a"> 2%</label>
+        <label><input type="radio" name="q1" value="b"> 70%</label>
+        <label><input type="radio" name="q1" value="c"> 30%</label>
+        <label><input type="radio" name="q1" value="d"> 40%</label>
+      </div>
+      <div class="pergunta">
+        <p>Quais são os três estados da água?</p>
+        <label><input type="radio" name="q2" value="a"> Preposição, chuva e neve</label>
+        <label><input type="radio" name="q2" value="b"> Precipitação, vapor e líquido</label>
+        <label><input type="radio" name="q2" value="c"> Sólido, líquido e chuvoso</label>
+        <label><input type="radio" name="q2" value="d"> Sólido, líquido e gasoso</label>
+      </div>
+      <div class="pergunta">
+        <p>Qual é o outro nome para a chuva?</p>
+        <label><input type="radio" name="q3" value="a"> Preposição</label>
+        <label><input type="radio" name="q3" value="b"> Precipitação</label>
+        <label><input type="radio" name="q3" value="c"> Chuvisco</label>
+        <label><input type="radio" name="q3" value="d"> Nuvem</label>
+      </div>
+      <button onclick="verificarRespostas()">Verificar Respostas</button>
+      <div id="resultado"></div>
+    </div>
+    <script>
+      function verificarRespostas() {
+        let respostasCorretas = 0;
+        const perguntas = document.querySelectorAll('.pergunta');
+
+        perguntas.forEach((pergunta, index) => {
+          const selected = pergunta.querySelector('input:checked');
+          if (selected) {
+            const resposta = selected.value;
+            if (index === 0 && resposta === 'a') { //Água na terra
+              respostasCorretas++;
+            } else if (index === 1 && resposta === 'd') { //Estados da água
+              respostasCorretas++;
+            } else if (index === 2 && resposta === 'b') { //Outro nome para chuva
+              respostasCorretas++;
+            }
+          }
+        });
+
+        const resultadoDiv = document.getElementById('resultado');
+        resultadoDiv.textContent = `Você acertou ${respostasCorretas} de ${perguntas.length} perguntas.`;
+      }
+    </script>
+    <div>
+        <p>Desenvolvido por Gabrielly Barros</p>
+        <p>Imagens: Arvore Água e InfoEscola</p>
+        <p>Fontes: <a href="https://arvoreagua.org/o-ciclo-da-agua/" target="_blank">Árvore Água</a>, <a href="https://www.infoescola.com/geografia/ciclo-da-agua/" target="_blank">InfoEscola</a></p>
+        <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-ddb8-61f5-b5e6-5cb45d72cc81/raw?se=2025-08-17T16%3A22%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=48b41882-6d43-539e-bf69-7cf094b69696&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T23%3A48%3A21Z&ske=2025-08-17T23%3A48%3A21Z&sks=b&skv=2024-08-04&sig=NeA76a7lFTbbgWbVGWAAoaOVFau0IvkiZK94b4BpKbE%3D" alt="Logo do ArcaLab" width="100" height="50">
+    </div>
+  </body>
+</html>
