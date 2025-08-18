@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="ArcaLab.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
+        <title>ArcaLab - O Solo</title>
+        <meta name="author" content="Gabrielly Barros">
+        <meta name="description" content="Aprenda sobre o solo, sua importância, tipos e conservação.">
+        <meta name="keywords" content="o solo, tipos de solo, conservação do solo, camadas do solo, importância do solo">
+        <style>
+            body {
+                font-family: 'Roboto', 'Open Sans', Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #ccc0b0;
+            }
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                padding: 20px;
+                background: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            h1, h2 {
+                text-align: center;
+                color: #492c00;
+            }
+            ul {
+                list-style-type: disc;
+                margin-left: 20px;
+            }
+            img {
+                display: block;
+                margin: 10px 0;
+                margin-left: auto;
+                margin-right: auto;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            p {
+                text-align: center;
+                color:#211707
+            }
+                  .pergunta {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(56,100,144,0.08);
+        padding: 16px 24px;
+        margin: 16px 0;
+        max-width: 500px;
+        width: 100%;
+      }
+      .pergunta p {
+        margin-bottom: 10px;
+        color: #386490;
+        text-align: left;
+      }
+      .pergunta label {
+        display: block;
+        margin-bottom: 6px;
+        cursor: pointer;
+        color: #2d3a47;
+      }
+      button {
+        background: #386490;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 28px;
+        font-size: 1rem;
+        cursor: pointer;
+        margin: 24px 0 12px 0;
+        transition: background 0.2s;
+      }
+      button:hover {
+        background: #27405e;
+      }
+      #resultado {
+        font-weight: bold;
+        color: #386490;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .pergunta.correta {
+  border: 2px solid #4caf50;
+  background: #e8f5e9;
+}
+.pergunta.errada {
+  border: 2px solid #f44336;
+  background: #ffebee;
+}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>O Solo</h1>
+            <p>O solo é um recurso natural essencial para a vida na Terra. Ele é formado por partículas minerais, matéria orgânica, água e ar, e desempenha um papel crucial na agricultura, na filtragem da água e no suporte à biodiversidade.</p>
+            <h2>Importância do Solo</h2>
+            <ul>
+                <li>
+                    Suporte para plantas: O solo fornece nutrientes e um meio de ancoragem para as raízes das plantas.
+                    <img src="https://www.terradecultivo.com.br/tcsolucoesambientais/wp-content/uploads/2023/06/blog_tcsa_radicular-1080x675.jpg" alt="Raízes das plantas no solo" width="300" height="200">
+                </li>
+                <li>
+                    Filtragem de água: Ele atua como um filtro natural, purificando a água que passa por ele.
+                    <img src="https://escolaweb.educacao.al.gov.br/uploads/ee117b4f-3930-454f-b4f0-80295ca72de9.png" alt="Solo filtrando água" width="300" height="200">
+                </li>
+                <li>
+                    Habitat para organismos: O solo é o lar de uma vasta gama de organismos, incluindo bactérias, fungos e insetos.
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCc7JTqAaJ8pjXqzirGs8-GgmlDsppMPvAL8jtmiIHrxHqkEVOfQiW5bGiZP-ECRJGnZtLfNpdyQ9GyE09b4EotiUiWhJ5srBXgR4x2yf3WtPduTesU4F3xaepg5Cry5UkB5pwt1NbFoo/s1600/fauna-e-flora-do-solo-importancia-pedologia.png"  alt="Organismos do solo" width="300" height="200">
+                </li>
+            </ul>
+            <h2>Tipos de Solo</h2>
+            <ul>
+                <li>
+                    Solo arenoso: Com partículas grandes, drena bem, mas retém poucos nutrientes.
+                    <img src="https://files.agro20.com.br/uploads/2019/11/solo-arenoso-2-1024x683.jpg" alt="Solo arenoso" width="300" height="200">
+                </li>
+                <li>
+                    Solo argiloso: Com partículas finas, retém água e nutrientes, mas drena mal.
+                    <img src="https://chb.com.br/storage/blog/157336.jpg" alt="Solo argiloso" width="300" height="200">
+                </li>
+                <li>
+                    Solo siltoso: Tem partículas de tamanho médio, equilibrando drenagem e retenção de nutrientes.
+                    <img src="https://www.mundoecologia.com.br/wp-content/gallery/solos-siltosos/Solos-Siltosos-4.JPG" alt="Solo siltoso" width="300" height="200">
+                </li>
+                <li>
+                    Solo humoso: Rico em matéria orgânica, é ideal para a agricultura.
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Sq6DvJV_eJd-MtyGnNCGz_wV1s92ihVgaA&s" alt="Solo humoso" width="300" height="200">
+                </li>
+            </ul>
+            <h2>Conservação do Solo</h2>
+            <p>Práticas como a rotação de culturas, o uso de cobertura do solo e a redução do uso de pesticidas são essenciais para conservar a saúde do solo. A erosão, a compactação e a contaminação são ameaças significativas que podem degradar este recurso vital.</p>
+            <img src="https://nutricaodesafras.com.br/wp-content/uploads/2023/05/saude-do-solo.jpg" alt="Imagem do Solo" width="300" height="200">
+            <h2>Camadas do solo</h2>
+            <p>O solo é composto por diferentes camadas, conhecidas como horizontes, que variam em composição e características. As principais camadas do solo são:</p>
+            <ul>
+                <li>Horizonte O: Camada superficial rica em matéria orgânica, composta por folhas, restos de plantas e organismos em decomposição.</li>
+                <li>Horizonte A: Também conhecido como camada arável, é rico em matéria orgânica e nutrientes, sendo a camada mais fértil do solo.</li>
+                <li>Horizonte B: Camada de acumulação, onde se concentram minerais lixiviados das camadas superiores. É menos fértil que o horizonte A.</li>
+                <li>Horizonte C: Composto por material parental, como rochas e sedimentos, que ainda não sofreram muita alteração.</li>
+                <li>
+                    Horizonte R: Camada de rocha sólida, que serve como base para as camadas superiores do solo.
+                    <img src="https://static.todamateria.com.br/upload/ho/ri/horizontesdosolo-1-cke.jpg" alt="Camadas do solo" width="300" height="300">
+                </li>
+            </ul>
+                  <h2>Perguntas</h2>
+      <div class="pergunta">
+        <p>Quais os quatro tipos de solo mais comuns no Brasil?</p>
+        <label><input type="radio" name="q1" value="a"> Siltoso, humoso, argiloso e orgânico</label>
+        <label><input type="radio" name="q1" value="b"> Arenoso, comestível, barroso e humoso</label>
+        <label><input type="radio" name="q1" value="c"> Argiloso, humoso, siltoso e arenoso</label>
+        <label><input type="radio" name="q1" value="d"> Comestível, barrento, lamaçento e orgânico</label>
+      </div>
+      <div class="pergunta">
+        <p>Como se chamas as camadas do solo?</p>
+        <label><input type="radio" name="q2" value="a"> Horizontes</label>
+        <label><input type="radio" name="q2" value="b"> Camadas</label>
+        <label><input type="radio" name="q2" value="c"> Fatias</label>
+        <label><input type="radio" name="q2" value="d"> Terra</label>
+      </div>
+      <div class="pergunta">
+        <p>Qual tipo de solo é <strong>ipermeável</strong>?</p>
+        <label><input type="radio" name="q3" value="a"> Arenoso</label>
+        <label><input type="radio" name="q3" value="b"> Siltoso</label>
+        <label><input type="radio" name="q3" value="c"> Argiloso</label>
+        <label><input type="radio" name="q3" value="d"> Humoso</label>
+      </div>
+      <button onclick="verificarRespostas()">Verificar Respostas</button>
+      <button onclick="resetQuiz()" style="margin-left:10px;background:#aaa;">Reset</button>
+      <div id="resultado"></div>
+    </div>
+    <script>
+function verificarRespostas() {
+  let respostasCorretas = 0;
+  const perguntas = document.querySelectorAll('.pergunta');
+
+  perguntas.forEach((pergunta, index) => {
+    // Remove classes antigas
+    pergunta.classList.remove('correta', 'errada');
+    const selected = pergunta.querySelector('input:checked');
+    let correta = false;
+    if (selected) {
+      const resposta = selected.value;
+      if (index === 0 && resposta === 'c') { //Tipos de solo
+        respostasCorretas++;
+        correta = true;
+      } else if (index === 1 && resposta === 'a') { //Camadas do solo
+        respostasCorretas++;
+        correta = true;
+      } else if (index === 2 && resposta === 'c') { //Tipo de solo impermeável
+        respostasCorretas++;
+        correta = true;
+      }
+      pergunta.classList.add(correta ? 'correta' : 'errada');
+    } else {
+      // Nenhuma opção marcada: remove destaque
+      pergunta.classList.remove('correta', 'errada');
+    }
+  });
+
+  const resultadoDiv = document.getElementById('resultado');
+  resultadoDiv.textContent = `Você acertou ${respostasCorretas} de ${perguntas.length} perguntas.`;
+}
+
+function resetQuiz() {
+  const perguntas = document.querySelectorAll('.pergunta');
+  perguntas.forEach(pergunta => {
+    pergunta.classList.remove('correta', 'errada');
+    const inputs = pergunta.querySelectorAll('input[type="radio"]');
+    inputs.forEach(input => input.checked = false);
+  });
+  document.getElementById('resultado').textContent = '';
+}
+</script>
+        <div>
+            <p>Desenvolvido por Gabrielly Barros</p>
+            <p>Fontes: <a href="https://www.infoescola.com/geografia/o-solo/" target="_blank">InfoEscola</a>, <a href="https://www.todamateria.com.br/o-solo/" target="_blank">Toda Matéria</a>, <a href="https://www.mundoeducacao.bol.uol.com.br/geografia/o-solo.htm" target="_blank">Mundo Educação</a>.</p>
+            <p>Veja também: <a href="index.html" target="_blank">Ciclo da água</a>.</p>
+            <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-ddb8-61f5-b5e6-5cb45d72cc81/raw?se=2025-08-17T16%3A22%3A42Z&sp=r&sv=2024-08-04&sr=b&scid=48b41882-6d43-539e-bf69-7cf094b69696&skoid=789f404f-91a9-4b2f-932c-c44965c11d82&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-16T23%3A48%3A21Z&ske=2025-08-17T23%3A48%3A21Z&sks=b&skv=2024-08-04&sig=NeA76a7lFTbbgWbVGWAAoaOVFau0IvkiZK94b4BpKbE%3D" alt="Logo do ArcaLab" width="100" height="100">
+        </div>
+    </body>
+</html>
